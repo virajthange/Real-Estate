@@ -9,15 +9,20 @@
     background-size: 100vw 100vh;
 }
 .navbar{
-    height: 15vh;
-    width: 100%;
+    position: relative;
+    top: 8px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 9vh;
+    width: 96%;
     padding: 0 3vw;
+    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content:space-between;
 }
-h2{
-    color: #888;
+.navbar h2{
+    color: #000000;
 }
 #navpart{
     height: 100vh;
@@ -25,8 +30,9 @@ h2{
 a{
     padding: 13px;
     border-radius: 25px;
-    color: white;
+    color: rgb(9, 9, 9);
     text-decoration: none;
+    font-weight: 600;
 }
 li{
     list-style: none;
@@ -41,8 +47,8 @@ li{
 button{
     padding: 10px;
     border-radius: 20px;
-    color: white;
-    background-color: rgba(203, 234, 224, 0.5);
+    color: rgb(9, 9, 9);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 
@@ -122,10 +128,48 @@ footer h3{
     width: 165px;
 }
 
-
-
 /* Hover Effect  */
 a:hover{
     color: black;
+    background-color: rgb(246, 241, 247);
+}
+
+
+
+/* About Section  */
+.main2{
+    background-color: rgb(180, 227, 246);
+    min-height: 100vh;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.team{
+    margin-top:60px;
+}
+.team h1{
+    color: #888;
+    text-align: center;
+    text-transform: uppercase;
+}
+.members{
+    padding: 60px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.member{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 240px;
+    width: 350px;
+    padding: 30px;
+    color: #888;
     background-color: whitesmoke;
+    border-radius: 10px;
+    border-bottom: 5px solid rgb(165, 158, 158);
 }
