@@ -8,12 +8,13 @@
     background-size: cover;
     background-size: 100vw 100vh;
 }
+
 .navbar{
-    position: relative;
+    position: sticky;
     top: 8px;
     margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.3);
-    height: 9vh;
+    height: 80px;
     width: 96%;
     padding: 0 3vw;
     border-radius: 20px;
@@ -22,7 +23,10 @@
     justify-content:space-between;
 }
 .navbar h2{
-    color: #000000;
+    background: linear-gradient(blue,green);
+    border-radius: 8px;
+    padding: 7px;
+    color: #ffffff;
 }
 #navpart{
     height: 100vh;
@@ -47,8 +51,8 @@ li{
 button{
     padding: 10px;
     border-radius: 20px;
-    color: rgb(9, 9, 9);
-    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(214, 214, 214);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 
@@ -113,7 +117,7 @@ button{
     width: 100%;
     padding: 50px;
     /* height: 15vh; */
-    background-color: #b8e8f4;
+    background-color: #e2f0f4;
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
@@ -132,6 +136,13 @@ footer h3{
 a:hover{
     color: black;
     background-color: rgb(246, 241, 247);
+}
+
+/* Responsive Part  */
+@media (max-width:870px) {
+    .navy{
+        display: none;
+    }
 }
 
 
