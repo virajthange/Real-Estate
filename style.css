@@ -3,6 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+body, html {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
 #hero{
     background-image: url('./sources/home.avif');
     background-size: cover;
@@ -14,7 +19,7 @@
     top: 8px;
     margin: 0 auto;
     /* background-color: rgba(255, 255, 255, 0.3); */
-    background-color: #a5b1c2;
+    background-color: #a5b1c25f;
     height: 80px;
     width: 96%;
     padding: 0 3vw;
@@ -29,8 +34,7 @@
     padding: 7px;
     color: #ffffff;
     border-radius: 8px;
-    background: linear-gradient(blue,green);
-
+    background: linear-gradient(75deg,#00bce6,#2962ff 50.31%,#d500f9);
 }
 #navpart{
     height: 100vh;
@@ -54,10 +58,14 @@ li{
 }
 button{
     padding: 10px;
-    border-radius: 20px;
+    border: 2px solid rgb(18, 206, 18);
+    border-radius: 10px;
     color: black;
     font-weight: 600;
     background-color: #b8e994;
+}
+button:hover{
+    background-color: #7ace8c5f;
 }
 .menu-icon{
     display: none;
@@ -142,7 +150,7 @@ footer h3{
 /* Hover Effect  */
 a:hover{
     color: black;
-    background-color: rgb(246, 241, 247);
+    background-color: rgba(246, 241, 247, 0.21);
 }
 .menu-icon{
     z-index: 999;
@@ -171,9 +179,11 @@ a:hover{
         top: 0;
         width: 100vw;
         height: 100vh;
-        background-color: white;
+        background-color: rgba(241, 216, 216, 0.708);
     }
-    
+    .an{
+        display:block;
+    }
 }
 @media (max-width:550px) {
     .navbar p{
@@ -220,6 +230,55 @@ a:hover{
     border-bottom: 5px solid rgb(165, 158, 158);
 }
 
+
+/* Vision Mission  */
+.vision-mission{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: #00bce6; */
+    /* padding: 2vw; */
+}
+.vision{
+    padding: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 50%;
+    margin: 0 auto;
+    /* background-color: #d500f9; */
+}
+.v-text{
+    padding: 70px;
+    /* background-color: #e2f0f4; */
+    font-size: 20px;
+    width: 50%;
+}
+.vision img{
+    width: 400px;
+    height: 300px;
+}
+.mission img{
+    width: 400px;
+    height: 300px;
+}
+.mission{
+    padding: 2vw;
+    /* background-color: #4e3852; */
+    width: 80%;
+    margin: 0 auto;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.m-text{
+    width: 50%;
+    font-size: 20px;
+    padding: 70px;
+}
 .contact_us{
     background-color: #d1d8e0;
     height: 100vh;
