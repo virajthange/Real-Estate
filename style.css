@@ -9,7 +9,7 @@ body, html {
     position: relative;
 }
 #hero{
-    background-image: url('./sources/home.avif');
+    background-image: url('./sources/main2.jpg');
     background-size: cover;
     background-size: 100vw 100vh;
 }
@@ -20,7 +20,7 @@ body, html {
     margin: 0 auto;
     /* background-color: rgba(255, 255, 255, 0.3); */
     background-color: #a5b1c25f;
-    height: 80px;
+    height: 60px;
     width: 96%;
     padding: 0 3vw;
     border-radius: 20px;
@@ -37,7 +37,7 @@ body, html {
     background: linear-gradient(75deg,#00bce6,#2962ff 50.31%,#d500f9);
 }
 #navpart{
-    height: 100vh;
+    min-height: 100vh;
 }
 a{
     padding: 13px;
@@ -106,6 +106,7 @@ button:hover{
     border-bottom: 6px solid brown;
 }
 /* ingredients part ended  */
+
 /* portfolio part started  */
 .portfolio{
     width: 100%;
@@ -194,16 +195,17 @@ a:hover{
 
 /* About Section  */
 .main2{
-    background-color: #f1f2f6;
+    /* background-color: #f1f2f6; */
     min-height: 100vh;
     /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 .team{
-    margin-top:60px;
+    margin-top:25vh;
 }
 .team h1{
-    color:#57606f;
+    color:rgb(67, 60, 60);
+    /* color:#57606f; */
     text-align: center;
     text-transform: uppercase;
 }
@@ -222,9 +224,10 @@ a:hover{
     flex-direction: column;
     align-items: center;
     height: 240px;
+    font-size: 20px;
     width: 350px;
     padding: 30px;
-    color: #888;
+    color: black;
     background-color: whitesmoke;
     border-radius: 10px;
     border-bottom: 5px solid rgb(165, 158, 158);
@@ -280,13 +283,13 @@ a:hover{
     padding: 70px;
 }
 .contact_us{
-    background-color: #d1d8e0;
+    background-color: white;
     height: 100vh;
     width: 100%;
 }
 .contact_us h1{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 90px;
     text-transform: uppercase;
 }
 .con_sec2{
@@ -324,4 +327,89 @@ a:hover{
 .van{
     background-color: aqua0;
     height: 200vh;
+}
+
+/* Project part started  */
+.project-part{
+    width: 100%;
+    min-height: calc(100vh - 60px);
+    /* background-color: rgb(230, 188, 188); */
+    padding: 8vw 15vw;
+}
+.project-part h1{
+    text-align: center;
+}
+.farm-photos{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.farm-photos img{
+    width: 200px;
+    height: 150px;
+}
+.farm-text{
+    font-size: 20px;
+    word-spacing: 7px;
+    line-height: 25px;
+}
+
+.proj-heighlights{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+.amenities{
+    padding: 10vh;
+    width: 50%;
+    height: 100vh;
+    /* background-color: #00bce6; */
+}
+.amenities h1{
+    margin-top: 25vh;
+    font-size: 50px;
+}
+.am-list{
+    font-size: 20px;
+    padding: 0px 30px;
+    margin-top: 5vh;
+}
+.location-heighlights{
+    padding: 10vh;
+    width: 50%;
+    height: 100vh;
+    /* background-color: #5a676a; */
+}
+.location-heighlights h1{
+    margin-top: 25vh;
+    font-size: 50px;
+}
+.loc-list{
+    padding: 0px 30px;
+    margin-top: 5vh;
+    font-size: 20px;
+}
+@media (max-width: 678px) {
+    .proj-heighlights{
+        display: block;
+    }
+    .amenities{
+        width: 100%;
+    }
+    .location-heighlights{
+        width: 100%;
+    }
+}
+
+.footer{
+    position: relative;
+}
+.footer img{
+    width: 100%;
+    position: absolute;
+    top: -60%;
 }
