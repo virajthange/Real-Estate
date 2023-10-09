@@ -404,7 +404,43 @@ a:hover{
         width: 100%;
     }
 }
+.completed-projects{
+    width: 100%;
+    height: 60vh;
+    background-color: skyblue;
+}
+.completed-projects h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.proj-box{
+    background-color: #d500f9;
+    width: 80%;
+    height: 30vh;
+    margin: 5vh auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.proj{
+    color: rgb(250, 250, 250);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 200px;
+    background-color: #2962ff;
+}
+.proj1{
+    background-image: url('./sources/dest1.jpg');
+}
+.proj2{
+    background-image: url('./sources/hotel3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+/* footer part started  */
 .footer{
     position: relative;
 }

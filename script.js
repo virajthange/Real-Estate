@@ -15,3 +15,11 @@ icon.addEventListener("click",function() {
         flag = 0;
     }
 })
+
+
+// project section 
+var proj1 = document.querySelector(".proj1")
+proj1.addEventListener("click",move)
+function move() {
+    window.open("http://127.0.0.1:5500/about.html")
+}
