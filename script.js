@@ -18,6 +18,12 @@ icon.addEventListener("click",function() {
 
 
 // project section 
+var math = document.querySelector(".na1")
+math.addEventListener("click",matheran)
+function matheran() {
+    window.open("https://housing.com/in/buy/mumbai/plot-pokket_cafe_neral_matheran_neral_lmk")
+}
+
 var proj1 = document.querySelector(".proj1")
 proj1.addEventListener("click",move)
 function move() {
