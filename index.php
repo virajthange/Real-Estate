@@ -3,7 +3,7 @@
     $phone = $_POST['phone'];
     $message = $_POST['message'];
 
-    $conn = new mysqli('localhost','root','','test')
+    $conn = new mysqli('localhost','root','','real')
     if($conn->connect_error) {
         die('Connection Failed ')
     }else{

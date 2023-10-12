@@ -21,12 +21,18 @@ icon.addEventListener("click",function() {
 var math = document.querySelector(".na1")
 math.addEventListener("click",matheran)
 function matheran() {
-    window.open("matheran.html")
+    
 }
 
 var proj1 = document.querySelector(".proj1")
 proj1.addEventListener("click",move)
 function move() {
-    window.open("http://127.0.0.1:5500/about.html")
+    window.open("matheran.html")
 }
+
+// var panvel = document.querySelector(".proj2")
+// panvel.addEventListener("click",move)
+// function move() {
+//     window.open("http://127.0.0.1:5500/about.html")
+// }
 
