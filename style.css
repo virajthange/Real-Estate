@@ -447,6 +447,11 @@ a:hover{
     /* flex-wrap: wrap; */
     justify-content: space-between;
 }
+.kp-farm{
+    background-image: url('./sources/khopolifarm.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .NA-plots{
     width: 100%;
     min-height: 60vh;
@@ -471,7 +476,9 @@ a:hover{
 .na1{
     background-image: url('./sources/matheran.jpeg');
 }
-
+.und{
+    text-decoration: underline;
+}
 .completed-projects{
     width: 100%;
     min-height: 60vh;
@@ -505,10 +512,14 @@ a:hover{
     /* background-color: #2962ff; */
 }
 .proj1{
-    background-image: url('./sources/dest1.jpg');
+    background-image: url('./sources/karjat-farm.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 4, 0)
+    
 }
 .proj2{
-    background-image: url('./sources/hotel3.jpg');
+    background-image: url('./sources/panvel.avif');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -557,6 +568,10 @@ a:hover{
     width: 500px;
     margin: 5px;
 }
+.high{
+    color: #4F6F52;
+    text-decoration: underline;
+}
 .prop-img{
     width: 50%;
     height: 100%;
@@ -567,4 +582,40 @@ a:hover{
 .prop-img img{
     width: 70%;
     height: 70%;
+}
+.prop-img{
+    text-decoration: underline;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+/* External images */
+.karjat{
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.karjat-image{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.khopoli-farm-image{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Extra photos  */
+.math-photos{
+    display: flex;
+    height: 500px;
+    /* background-color: #00bce6; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+.math-photos img{
+    height: 350px;
 }

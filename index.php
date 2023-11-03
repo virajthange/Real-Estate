@@ -1,4 +1,5 @@
 <?php
+    echo "Hey there"
     $name = $_POST['name'];
     $phone = $_POST['phone'];
     $message = $_POST['message'];
